@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">BAKIR</div>
+    <div class="hamburger" id="hamburger"> &#9776; </div>
+    <ul id="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+<section id="home"> 
+    <div class="home-content">
+        <div class="text">
+            <h1 id="loading-text"></h1>
+            <p>Dobrodošli na moju stranicu!</p> 
+        </div>
+        <div class="image">
+            <img src="./slike/17479e0a-573e-4ffd-8dfc-6b719c49af32.JPG" alt="Bakir">
+        </div>
+    </div>
+</section>
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <p>Ja sam Bakir Hadžić i dolazim iz Travnika. Imam 14 godina i volim programirati. Moji hobiji su programiranje, biciklizam, fudbal.</p>
+        <div class="images">
+            <img src="./slike/IMG_2135.jpg" alt="Mali Bakir u Amstrerdamu">
+            <img src="./slike/21926767-58fe-4563-ab4c-8ff7c115f244.JPG" alt="Mali Bakir u Odjelu">
+            <img src="./slike/185d2fbc-e966-4fd0-9d5d-1f09615bf24f.JPG" alt="Mali Bakir u Istanbul">
+            <img src="./slike/IMG_2171.JPG" alt="Bakir i Faruk u MInhenu">
+            <img src="./slike/IMG_0790.JPG" alt="Bakir jede sladoled">
+            <img src="./slike/a1198031-51a4-46b9-b80d-95c9e2af036f.jpg" alt="Bakir se slikao na balkonu">
+            <img src="./slike/2259c184-aba2-4c36-846e-57089272aab4.JPG" alt="Bakir i Kanita ">
+            <img src="./slike/86983f69-f2b7-48c0-9f4a-fda7a31b6be8.JPG" alt="Bakir u Sarajevu">
+            <img src="./slike/IMG_0134.JPG" alt="Bakir u Ferrari">
+            <img src="./slike/IMG_0768.JPG" alt="Bakir u Mostaru">
+            <img src="./slike/IMG_3986.JPG" alt="Bakir na majkinom balkonu">
+            <img src="./slike/IMG_0285.JPG" alt="Bakir mete stepenice">
+            <img src="./slike/IMG_3984.JPG" alt="Bakir ispred garaza u Mosoru">
+            <img src="./slike/IMG_3983.JPG" alt="Bakir na Umri">
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project">
+            <img src="./slike/Slika zaslona 2024-05-23 u 14.29.18.png" alt="Fudbalska stranica">
+            <h3>Project 1</h3>
+            <p>Fudbalska stranica </p>
+        </div>
+        <div class="project">
+            <img src="./slike/Slika zaslona 2024-05-23 u 14.30.35.png" alt="Roll dice">
+            <h3>Project 2</h3>
+            <p>Roll dice game</p>
+        </div>
+        <div class="project">
+            <img src="./slike/Slika zaslona 2024-05-30 u 21.49.11.png" alt="Movie">
+            <h3>Project 3</h3>
+            <p>Movie app</p>
+        </div>
+        <div class="project">
+            <img src="project_image4.jpg" alt="Uskoro dolazi">
+            <h3>Project 4</h3>
+            <p>HHauto stranica.</p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+        <div class="contact-info">
+            <p>Email: <a href="mailto:bakir.hadzic@icloud.com">bakir.hadzic@icloud.com </a></p>
+            <p>Phone: <a href="tel:+387603472117">+387603472117</a></p>
+        </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 Bakir. All rights reserved.</p>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
