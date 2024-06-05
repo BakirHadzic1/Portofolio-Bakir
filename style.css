@@ -335,7 +335,7 @@ footer {
     }
     nav ul.active {
         display: flex;
-        width: 100vw; 
+        width: 80vw; 
         flex-direction: column;
         justify-content: center;
         align-items: center;
