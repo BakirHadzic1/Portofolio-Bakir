@@ -330,7 +330,7 @@ footer {
     }
     nav ul {
         display: none;
-        width: 100%; 
+        width: 75%; 
         flex-direction: column;
     }
     nav ul.active {
