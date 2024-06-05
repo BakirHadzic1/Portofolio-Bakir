@@ -330,13 +330,15 @@ footer {
     }
     nav ul {
         display: none;
-        width: 75%; 
+        width: 100%; 
         flex-direction: column;
     }
     nav ul.active {
         display: flex;
-        width: 75%; 
+        width: 100vw; 
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     nav ul li {
         width: 100%;
