@@ -16,7 +16,6 @@ nav {
     width: 100%;
     top: 0;
     z-index: 1000;
-    
 }
 
 nav .logo {
@@ -234,7 +233,51 @@ footer {
     color: white;
 }
 
-/* Laptops */
+#countdown {
+    background-color: #ffcc00;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+#countdown:hover {
+    transform: scale(1.05);
+}
+
+#countdown h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.time-section {
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.number {
+    font-size: 3em;
+    color: #333;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1em;
+    color: #555;
+}
+
+.time-section:hover .number {
+    color: #000;
+}
+
 @media (max-width: 1200px) {
     .home-content .text h1 {
         font-size: 2.5em;
