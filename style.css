@@ -345,6 +345,7 @@ footer {
     }
     .home-content .text h1 {
         font-size: 2em;
+        border-right: none; 
     }
     .home-content .text p {
         font-size: 1em;
@@ -376,7 +377,7 @@ footer {
         width: 100%; 
         flex-direction: column;
     }
-    nav ul.active {
+    nav ul.show {
         display: flex;
         width: 80vw; 
         flex-direction: column;

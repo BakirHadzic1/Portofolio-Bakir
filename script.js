@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loadingText = document.getElementById('loading-text');
-    const logoText = 'Bakir Hadžić';
+    const logoText = window.innerWidth <= 480 ? 'Bakir Hadžić' : 'Ja sam Bakir Hadžić';
     let index = 0;
 
     function typeWriter() {
