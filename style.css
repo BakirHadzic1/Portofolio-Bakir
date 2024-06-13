@@ -389,3 +389,15 @@ footer {
         text-align: center;
     }
 }
+
+/*Filmska stranica*/
+#projects .project a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+#projects .project a:hover {
+    text-decoration: none;
+}
+
