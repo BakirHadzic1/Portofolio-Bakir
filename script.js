@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Countdown timer
-    const birthday = new Date('December 2, 2024 00:00:00').getTime();
+    const birthday = new Date('December 2, 2025 00:00:00').getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
